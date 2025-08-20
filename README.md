@@ -32,6 +32,8 @@ A high-performance, domain-driven NestJS API for product catalog search with hyb
 
 ## 🏗️ Architecture
 
+![Architecture Overview](public/2-Architecture-Overview.png)
+
 ### Domain-Driven Design Structure
 
 ```
@@ -231,6 +233,8 @@ curl "http://localhost:3000/api/v1/search?query=iPhone"
 ```
 
 ## 📊 Database Schema
+
+![Database Schema](public/1-db-schema.png)
 
 ### Core Tables
 
@@ -702,41 +706,4 @@ export default () => ({
 3. Make your changes following the coding standards
 4. Add tests for new functionality
 5. Run the test suite: `npm test`
-6. Commit your changes: `git commit -m 'Add amazing feature'`
-7. Push to the branch: `git push origin feature/amazing-feature`
-8. Open a Pull Request
-
-### Code Standards
-
-- Follow TypeScript best practices
-- Use ESLint for code linting
-- Write meaningful commit messages
-- Add JSDoc comments for public APIs
-- Follow NestJS conventions and patterns
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-### Common Issues
-
-1. **Database Connection**: Ensure PostgreSQL is running and accessible
-2. **Redis Connection**: Verify Redis service is started
-3. **Migration Errors**: Check database permissions and connection
-4. **Search Issues**: Verify pgvector extension is installed
-
-### Getting Help
-
-- Check the logs: `docker-compose logs app`
-- Verify services: `docker-compose ps`
-- Test connectivity: `curl http://localhost:3000/health`
-- Review migration status: `npm run migration:show`
-
-### Contact
-
-- Create an issue for bugs or feature requests
-- Check existing issues for solutions
-- Review the documentation for common patterns
-# Product-Search-API
+6. Commit your changes: `
